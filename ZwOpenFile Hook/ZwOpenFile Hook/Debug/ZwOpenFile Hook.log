@@ -1,0 +1,23 @@
+﻿  Building 'ZwOpenFile Hook' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(422,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  Stamping Debug\ZwOpenFileHook.inf
+  Stamping [Version] section with DriverVer=11/11/2021,11.12.53.104
+  main.c
+  ZwOpenFile Hook.vcxproj -> C:\Users\emman\Desktop\ZwOpenFile Hook\Debug\ZwOpenFileHook.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\emman\Desktop\ZwOpenFile Hook\Debug\ZwOpenFileHook.sys
+  
+  ..........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\emman\Desktop\ZwOpenFile Hook\Debug\ZwOpenFile Hook\zwopenfilehook.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\emman\Desktop\ZwOpenFile Hook\Debug\ZwOpenFile Hook\zwopenfilehook.cat
+  
