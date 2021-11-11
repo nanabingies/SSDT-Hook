@@ -52,6 +52,7 @@ NTSTATUS DriverEntry(IN PDRIVER_OBJECT pDriverObject, IN PUNICODE_STRING pRegist
 	for (ULONG i = 0; i < IRP_MJ_MAXIMUM_FUNCTION; i++) {
 		pDriverObject->MajorFunction[i] = DefaultDispatch;
 	}
+	pDriverObject->DriverUnload = Unload;
 
 	if (!saveSSDTEntries()) {
 		KdPrint(("[-] Failed Driver Entry.\n"));
